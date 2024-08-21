@@ -1,8 +1,8 @@
 import * as _ from 'lodash-es';
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../../graphlib/graph.js';
-import { addSubgraphConstraints } from './add-subgraph-constraints.js';
+import { Graph } from '../../graphlib/graph'
+import { addSubgraphConstraints } from './add-subgraph-constraints'
 
 describe('order/addSubgraphConstraints', function () {
   var g, cg;

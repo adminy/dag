@@ -1,4 +1,4 @@
-import { tarjan } from './tarjan.js';
+import { tarjan } from './tarjan'
 
 export { findCycles };
 

@@ -1,4 +1,4 @@
-import { pick } from "../util.js";
+import { pick } from '../util'
 
 export { resolveConflicts };
 

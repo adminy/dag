@@ -1,4 +1,4 @@
-import { intersectEllipse } from './intersect-ellipse.js';
+import { intersectEllipse } from './intersect-ellipse'
 
 export { intersectCircle };
 

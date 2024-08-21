@@ -28,12 +28,19 @@ module.exports = {
     // make sure that all files have an extension (required by ESM)
     'import/extensions': [
       'error',
-      'always',
+      // 'always',
+      // {
+      //   js: 'always',
+      //   jsx: 'never',
+      //   mjs: 'always',
+      // },
+      "ignorePackages",
       {
-        js: 'always',
-        jsx: 'never',
-        mjs: 'always',
-      },
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
     ],
   },
 };

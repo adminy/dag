@@ -1,5 +1,5 @@
-import * as util from '../util.js';
-import { positionX } from './bk.js';
+import * as util from '../util'
+import { positionX } from './bk'
 
 export { position };
 

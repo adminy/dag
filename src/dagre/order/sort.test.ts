@@ -1,6 +1,6 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { sort } from './sort.js';
+import { sort } from './sort'
 
 describe('sort', function () {
   it('sorts nodes by barycenter', function () {

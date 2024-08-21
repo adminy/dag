@@ -1,8 +1,8 @@
 import * as _ from 'lodash-es';
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../../graphlib/graph.js';
-import { initOrder } from './init-order.js';
+import { Graph } from '../../graphlib/graph'
+import { initOrder } from './init-order'
 
 describe('order/initOrder', function () {
   var g;

@@ -1,7 +1,7 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../graph.js';
-import { prim } from './prim.js';
+import { Graph } from '../graph'
+import { prim } from './prim'
 
 describe('alg.prim', function () {
   it('returns an empty graph for an empty input', function () {

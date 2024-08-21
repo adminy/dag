@@ -1,4 +1,4 @@
-import * as util from './util.js';
+import * as util from './util'
 
 export { run, undo };
 
@@ -24,13 +24,13 @@ function run(g) {
 }
 
 function normalizeEdge(g, e) {
-  var v = e.v;
-  var vRank = g.node(v).rank;
-  var w = e.w;
-  var wRank = g.node(w).rank;
-  var name = e.name;
-  var edgeLabel = g.edge(e);
-  var labelRank = edgeLabel.labelRank;
+  let v = e.v;
+  let vRank = g.node(v).rank;
+  const w = e.w;
+  const wRank = g.node(w).rank;
+  const name = e.name;
+  const edgeLabel = g.edge(e);
+  const labelRank = edgeLabel.labelRank;
 
   if (wRank === vRank + 1) return;
 
@@ -65,8 +65,8 @@ function normalizeEdge(g, e) {
 
 function undo(g) {
   g.graph().dummyChains.forEach(v => {
-    var node = g.node(v);
-    var origLabel = node.edgeLabel;
+    let node = g.node(v);
+    const origLabel = node.edgeLabel;
     var w;
     g.setEdge(node.edgeObj, origLabel);
     while (node.dummy) {

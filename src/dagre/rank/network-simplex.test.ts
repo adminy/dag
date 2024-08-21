@@ -1,16 +1,16 @@
 import * as _ from 'lodash-es';
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../../graphlib/graph.js';
-import { networkSimplex } from './network-simplex.js';
-import { longestPath } from './util.js';
+import { Graph } from '../../graphlib/graph'
+import { networkSimplex } from './network-simplex'
+import { longestPath } from './util'
 var initLowLimValues = networkSimplex.initLowLimValues;
 var initCutValues = networkSimplex.initCutValues;
 var calcCutValue = networkSimplex.calcCutValue;
 var leaveEdge = networkSimplex.leaveEdge;
 var enterEdge = networkSimplex.enterEdge;
 var exchangeEdges = networkSimplex.exchangeEdges;
-import { normalizeRanks } from '../util.js';
+import { normalizeRanks } from '../util'
 
 describe('network simplex', function () {
   var g, t, gansnerGraph, gansnerTree;

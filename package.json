@@ -1,28 +1,17 @@
 {
-  "name": "dagre-d3-es",
-  "version": "7.1.11",
-  "description": "",
-  "author": "Thibaut Lassalle",
+  "name": "dag",
+  "version": "0.0.1",
+  "description": "Dag D3 Tree with abstraction boxes dimension based on dagre",
   "license": "MIT",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsc --watch",
-    "prepare": "rm -rf dist dist_tmp; mkdir dist; tsc --build tsconfig.json --declaration && mv dist_tmp/src/* dist && rm -rf dist_tmp",
+    "prepare": "esbuild --bundle --format=esm --minify --platform=browser --target=es2022 --sourcemap --outdir=./dist src/index.ts",
+    "watch": "npm run prepare -- --watch",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write .",
-    "test": "vitest run",
-    "my_1_npm_login": "npm login",
-    "my_2_publish": "echo update_package_version ; git clean -xdf ; npm ci ; npm publish",
-    "compile_js_as_ts": "tsc src/index.js --AllowJs --checkJs --outDir dist/"
-  },
-  "keywords": [
-    "dagre-d3"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tbo47/dagre-es.git"
+    "test": "vitest run"
   },
   "dependencies": {
     "d3": "^7.8.5",
@@ -32,6 +21,7 @@
     "@types/d3": "^7.4.3",
     "@types/jest": "^29.5.8",
     "@types/lodash-es": "^4.17.11",
+    "esbuild": "^0.23.1",
     "eslint": "^8.53.0",
     "eslint-plugin-import": "^2.29.0",
     "prettier": "^3.1.0",
@@ -40,6 +30,5 @@
   },
   "files": [
     "dist/**/*"
-  ],
-  "types": "dist/index.d.ts"
+  ]
 }

@@ -1,7 +1,7 @@
-import chai from '../../test/chai.js';
-const expect = chai.expect;
-import { Graph } from '../graphlib/index.js';
-import { parentDummyChains } from './parent-dummy-chains.js';
+import chai from '../../test/chai'
+const expect = chai.expect
+import { Graph } from '../graphlib'
+import { parentDummyChains } from './parent-dummy-chains'
 
 describe('parentDummyChains', function () {
   var g;

@@ -1,4 +1,4 @@
-import { zipObject } from "../util.js"
+import { zipObject } from '../util'
 
 export { crossCount };
 

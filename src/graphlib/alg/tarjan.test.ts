@@ -1,7 +1,7 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../graph.js';
-import { tarjan } from './tarjan.js';
+import { Graph } from '../graph'
+import { tarjan } from './tarjan'
 
 describe('alg.tarjan', function () {
   it('returns an empty array for an empty graph', function () {

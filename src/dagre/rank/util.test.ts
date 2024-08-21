@@ -1,8 +1,8 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../../graphlib/graph.js';
-import { normalizeRanks } from '../util.js';
-import { longestPath } from './util.js';
+import { Graph } from '../../graphlib/graph'
+import { normalizeRanks } from '../util'
+import { longestPath } from './util'
 
 describe('rank/util', function () {
   describe('longestPath', function () {

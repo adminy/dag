@@ -1,8 +1,8 @@
-import * as _ from 'lodash-es';
-import chai from '../../test/chai.js';
+import * as _ from 'lodash-es'
+import chai from '../../test/chai'
 const expect = chai.expect;
-import { layout } from './layout.js';
-import { Graph } from '../graphlib/index.js';
+import { layout } from './layout'
+import { Graph } from '../graphlib'
 
 describe('layout', function () {
   var g;

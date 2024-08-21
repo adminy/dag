@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-import * as util from './util.js';
+import * as util from './util'
 
 export { positionNodes };
 

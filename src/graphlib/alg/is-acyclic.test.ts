@@ -1,7 +1,7 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../graph.js';
-import { isAcyclic } from './is-acyclic.js';
+import { Graph } from '../graph'
+import { isAcyclic } from './is-acyclic'
 
 describe('alg.isAcyclic', function () {
   it('returns true if the graph has no cycles', function () {

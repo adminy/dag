@@ -1,14 +1,14 @@
-import { Graph } from '../graphlib/index.js';
-import * as acyclic from './acyclic.js';
-import { addBorderSegments } from './add-border-segments.js';
-import * as coordinateSystem from './coordinate-system.js';
-import * as nestingGraph from './nesting-graph.js';
-import * as normalize from './normalize.js';
-import { order } from './order/index.js';
-import { parentDummyChains } from './parent-dummy-chains.js';
-import { position } from './position/index.js';
-import { rank } from './rank/index.js';
-import * as util from './util.js';
+import { Graph } from '../graphlib'
+import * as acyclic from './acyclic'
+import { addBorderSegments } from './add-border-segments'
+import * as coordinateSystem from './coordinate-system'
+import * as nestingGraph from './nesting-graph'
+import * as normalize from './normalize'
+import { order } from './order'
+import { parentDummyChains } from './parent-dummy-chains'
+import { position } from './position'
+import { rank } from './rank'
+import * as util from './util'
 
 export { layout };
 

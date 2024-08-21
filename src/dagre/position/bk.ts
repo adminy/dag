@@ -1,5 +1,5 @@
-import { Graph } from '../../graphlib/index.js';
-import * as util from '../util.js';
+import { Graph } from '../../graphlib'
+import * as util from '../util'
 
 /*
  * This module provides coordinate assignment based on Brandes and Köpf, "Fast

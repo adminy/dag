@@ -1,7 +1,7 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { barycenter } from './barycenter.js';
-import { Graph } from '../../graphlib/graph.js';
+import { barycenter } from './barycenter'
+import { Graph } from '../../graphlib/graph'
 
 describe('order/barycenter', function () {
   var g;

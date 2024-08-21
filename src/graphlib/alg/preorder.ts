@@ -1,4 +1,4 @@
-import { dfs } from './dfs.js';
+import { dfs } from './dfs'
 
 export { preorder };
 

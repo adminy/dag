@@ -1,6 +1,6 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { PriorityQueue } from './priority-queue.js';
+import { PriorityQueue } from './priority-queue'
 
 describe('data.PriorityQueue', function () {
   var pq;

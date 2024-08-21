@@ -1,6 +1,6 @@
-import * as acyclic from './acyclic.js';
-import { layout } from './layout.js';
-import * as normalize from './normalize.js';
-import { rank } from './rank/index.js';
+import * as acyclic from './acyclic'
+import { layout } from './layout'
+import * as normalize from './normalize'
+import { rank } from './rank'
 
-export { acyclic, normalize, rank, layout };
+export { acyclic, normalize, rank, layout }

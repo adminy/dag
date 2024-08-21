@@ -1,8 +1,8 @@
 import * as _ from 'lodash-es';
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../../graphlib/graph.js';
-import { buildLayerGraph } from './build-layer-graph.js';
+import { Graph } from '../../graphlib/graph'
+import { buildLayerGraph } from './build-layer-graph'
 
 describe('order/buildLayerGraph', function () {
   var g;

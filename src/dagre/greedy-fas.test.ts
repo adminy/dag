@@ -1,9 +1,9 @@
-import * as _ from 'lodash-es';
-import chai from '../../test/chai.js';
-const expect = chai.expect;
-import { Graph } from '../graphlib/index.js';
-import { findCycles } from '../graphlib/alg/find-cycles.js';
-import { greedyFAS } from './greedy-fas.js';
+import * as _ from 'lodash-es'
+import chai from '../../test/chai'
+const expect = chai.expect
+import { Graph } from '../graphlib'
+import { findCycles } from '../graphlib/alg/find-cycles'
+import { greedyFAS } from './greedy-fas'
 
 describe('greedyFAS', function () {
   var g;

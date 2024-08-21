@@ -1,7 +1,7 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../../graphlib/graph.js';
-import { crossCount } from './cross-count.js';
+import { Graph } from '../../graphlib/graph'
+import { crossCount } from './cross-count'
 
 describe('crossCount', function () {
   var g;

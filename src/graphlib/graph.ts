@@ -155,7 +155,9 @@ export class Graph {
     }
 
     // @ts-expect-error
-    this._nodes[v] = arguments.length > 1 ? value : this._defaultNodeLabelFn(v);
+    const val = arguments.length > 1 ? value : this._defaultNodeLabelFn(v);
+    val === undefined && console.log('?>>>', v, this._nodes[v], new Error())
+    this._nodes[v] = val;
     if (this._isCompound) {
       this._parent[v] = GRAPH_NODE;
       this._children[v] = {};

@@ -1,4 +1,4 @@
-import { intersectLine } from './intersect-line.js';
+import { intersectLine } from './intersect-line'
 
 export { intersectPolygon };
 

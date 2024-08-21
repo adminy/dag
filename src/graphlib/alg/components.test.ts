@@ -1,7 +1,7 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../graph.js';
-import { components } from './components.js';
+import { Graph } from '../graph'
+import { components } from './components'
 
 describe('alg.components', function () {
   it('returns an empty list for an empty graph', function () {

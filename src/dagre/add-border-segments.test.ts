@@ -1,7 +1,7 @@
-import chai from '../../test/chai.js';
-const expect = chai.expect;
-import { addBorderSegments } from './add-border-segments.js';
-import { Graph } from '../graphlib/index.js';
+import chai from '../../test/chai'
+const expect = chai.expect
+import { addBorderSegments } from './add-border-segments'
+import { Graph } from '../graphlib'
 
 describe('addBorderSegments', function () {
   var g;

@@ -1,6 +1,7 @@
-import { render } from './dagre-js/render.js';
-import * as graphlib from './graphlib/index.js';
+import { render } from './dagre-js/render'
+import * as graphlib from './graphlib'
 
-import * as intersect from './dagre-js/intersect/index.js';
+import * as intersect from './dagre-js/intersect'
+import * as d3 from 'd3'
 
-export { graphlib, intersect, render };
+export { graphlib, intersect, render, d3 };

@@ -1,8 +1,8 @@
 import * as _ from 'lodash-es';
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../../graphlib/graph.js';
-import { feasibleTree } from './feasible-tree.js';
+import { Graph } from '../../graphlib/graph'
+import { feasibleTree } from './feasible-tree'
 
 describe('feasibleTree', function () {
   it('creates a tree for a trivial input graph', function () {

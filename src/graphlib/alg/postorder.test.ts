@@ -1,7 +1,7 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../graph.js';
-import { postorder } from './postorder.js';
+import { Graph } from '../graph'
+import { postorder } from './postorder'
 
 describe('alg.postorder', function () {
   it('returns the root for a singleton graph', function () {

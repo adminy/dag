@@ -1,5 +1,5 @@
-import { Graph } from '../graphlib/index.js';
-import * as util from './util.js';
+import { Graph } from '../graphlib'
+import * as util from './util'
 
 export { debugOrdering };
 

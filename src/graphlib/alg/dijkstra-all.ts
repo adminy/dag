@@ -1,4 +1,4 @@
-import { dijkstra } from './dijkstra.js';
+import { dijkstra } from './dijkstra'
 
 export { dijkstraAll };
 

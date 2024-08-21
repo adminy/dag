@@ -1,13 +1,12 @@
-import * as _ from 'lodash-es';
-import chai from '../../test/chai.js';
-const expect = chai.expect;
-
-import * as acyclic from './acyclic.js';
-import { Graph } from '../graphlib/index.js';
-import { findCycles } from '../graphlib/alg/find-cycles.js';
+import * as _ from 'lodash-es'
+import chai from '../../test/chai'
+const expect = chai.expect
+import * as acyclic from './acyclic'
+import { Graph } from '../graphlib/index'
+import { findCycles } from '../graphlib/alg/find-cycles'
 
 describe('acyclic', function () {
-  var ACYCLICERS = ['greedy', 'dfs', 'unknown-should-still-work'];
+  const ACYCLICERS = ['greedy', 'dfs', 'unknown-should-still-work']
   var g;
 
   beforeEach(function () {

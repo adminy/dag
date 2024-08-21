@@ -1,8 +1,8 @@
-import * as _ from 'lodash-es';
-import chai from '../../../test/chai.js';
+import * as _ from 'lodash-es'
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { sortSubgraph } from './sort-subgraph.js';
-import { Graph } from '../../graphlib/graph.js';
+import { sortSubgraph } from './sort-subgraph'
+import { Graph } from '../../graphlib/graph'
 
 describe('order/sortSubgraph', function () {
   var g, cg;

@@ -1,10 +1,10 @@
 import * as _ from 'lodash-es';
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../../graphlib/graph.js';
-import { order } from './index.js';
-import { crossCount } from './cross-count.js';
-import { buildLayerMatrix } from '../util.js';
+import { Graph } from '../../graphlib/graph'
+import { order } from './'
+import { crossCount } from './cross-count'
+import { buildLayerMatrix } from '../util'
 
 describe('order', function () {
   var g;

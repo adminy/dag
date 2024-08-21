@@ -1,8 +1,8 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../graph.js';
-import { dijkstraAll } from './dijkstra-all.js';
-import { allShortestPathsTests } from '../../../test/graphlib/alg/all-shortest-paths.js';
+import { Graph } from '../graph'
+import { dijkstraAll } from './dijkstra-all'
+import { allShortestPathsTests } from '../../../test/graphlib/alg/all-shortest-paths'
 
 describe('alg.dijkstraAll', function () {
   allShortestPathsTests(dijkstraAll);

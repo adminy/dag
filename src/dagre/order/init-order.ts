@@ -1,4 +1,4 @@
-import { range } from "../util.js";
+import { range } from '../util'
 
 export { initOrder };
 

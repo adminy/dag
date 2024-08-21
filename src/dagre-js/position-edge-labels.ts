@@ -1,6 +1,6 @@
-import * as d3 from 'd3';
-import * as _ from 'lodash-es';
-import * as util from './util.js';
+import * as d3 from 'd3'
+import * as _ from 'lodash-es'
+import * as util from './util'
 
 export { positionEdgeLabels };
 

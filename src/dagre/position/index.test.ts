@@ -1,7 +1,7 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { position } from './index.js';
-import { Graph } from '../../graphlib/index.js';
+import { position } from './'
+import { Graph } from '../../graphlib'
 
 describe('position', function () {
   var g;

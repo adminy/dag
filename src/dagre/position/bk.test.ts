@@ -1,7 +1,7 @@
 import * as _ from 'lodash-es';
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { buildLayerMatrix } from '../util.js';
+import { buildLayerMatrix } from '../util'
 import {
   findType1Conflicts,
   findType2Conflicts,
@@ -13,8 +13,8 @@ import {
   balance,
   findSmallestWidthAlignment,
   positionX,
-} from './bk.js';
-import { Graph } from '../../graphlib/graph.js';
+} from './bk'
+import { Graph } from '../../graphlib/graph'
 
 describe('position/bk', function () {
   var g;

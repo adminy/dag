@@ -1,6 +1,6 @@
-import { barycenter } from './barycenter.js';
-import { resolveConflicts } from './resolve-conflicts.js';
-import { sort } from './sort.js';
+import { barycenter } from './barycenter'
+import { resolveConflicts } from './resolve-conflicts'
+import { sort } from './sort'
 
 export { sortSubgraph };
 

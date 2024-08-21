@@ -1,5 +1,5 @@
-import { PriorityQueue } from '../data/priority-queue.js';
-import { Graph } from '../graph.js';
+import { PriorityQueue } from '../data/priority-queue'
+import { Graph } from '../graph'
 
 export { prim };
 

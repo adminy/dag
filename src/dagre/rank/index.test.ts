@@ -1,8 +1,8 @@
 import * as _ from 'lodash-es';
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { rank } from './index.js';
-import { Graph } from '../../graphlib/graph.js';
+import { rank } from './'
+import { Graph } from '../../graphlib/graph'
 
 describe('rank', function () {
   var RANKERS = ['longest-path', 'tight-tree', 'network-simplex', 'unknown-should-still-work'];

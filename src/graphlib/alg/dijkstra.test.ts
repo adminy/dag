@@ -1,7 +1,7 @@
-import chai from '../../../test/chai.js';
+import chai from '../../../test/chai'
 const expect = chai.expect;
-import { Graph } from '../graph.js';
-import { dijkstra } from './dijkstra.js';
+import { Graph } from '../graph'
+import { dijkstra } from './dijkstra'
 
 describe('alg.dijkstra', function () {
   it('assigns distance 0 for the source node', function () {

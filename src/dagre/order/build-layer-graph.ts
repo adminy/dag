@@ -1,5 +1,5 @@
 import { uniqueId } from "../util.js";
-import { Graph } from '../../graphlib/index.js';
+import { Graph } from '../../graphlib'
 
 /*
  * Constructs a graph that can be used to sort a layer of nodes. The graph will

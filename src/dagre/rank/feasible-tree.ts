@@ -1,5 +1,5 @@
-import { Graph } from '../../graphlib/index.js';
-import { slack } from './util.js';
+import { Graph } from '../../graphlib'
+import { slack } from './util'
 
 export { feasibleTree };
 
